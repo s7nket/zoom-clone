@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-color:white;
+}
+
+.main-nav_container {
+    display: flex;
+    padding:0px 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 100%;
+    max-width: 87.5rem;
+    position: relative;
+}
+
+.logo {
+    cursor: pointer;
+}
+.main-nav_left {
+    display: flex;
+    height: 60px;
+    width: 573.9px;
+    align-items: center;
+}
+
+.navbar_left {
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 29px;
+    width: 449px;
+    font-weight: 700;
+
+}
+
+.navbar_left a {
+    color:#666487;
+}
+
+.main-nav_right {
+    display: flex;
+    width: 569px;
+    height: 60px;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar_right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 569px;
+    height: 60px;
+    font-weight: 700;
+    flex-direction: row;
+}
+
+.navbar_right a {
+    color:#666487;
+}
+
+.search_icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.dropdown {
+    font-size: 24px;
+    cursor: pointer;
+}
+.dropdown_menu {
+    display: none;
+}
+
+.contact {
+    height: 30px;
+    width: 142px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 16px;
+    color:#0b5cff;
+    background-color: transparent;
+    border:0.0625rem solid ;
+    cursor:pointer;
+    border-radius: 20px;
+}
+
+.sign_up {
+    height: 30px;
+    width: 142px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 16px;
+    color:#ffffff;
+    background-color: #0b5cff;
+    border:0.0625rem solid ;
+    cursor:pointer;
+    border-radius: 20px;
+}
