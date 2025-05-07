@@ -307,3 +307,84 @@ body {
     left: 502.14px;
     top: -800px;
 }
+
+.letter-disc {
+    padding:0px 60px 0px 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.letter-disc p {
+    font-size: 17px;       
+    margin:20px 0px 20px 0px;
+
+}
+
+.letter-disc a {
+    color: #0b5cff;
+}
+
+.product-zoom {
+    margin-left: -90px;
+}
+
+.feature-list {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    padding: 0px 60px 0px 30px;
+}
+ /* f2 design */
+.features1 {
+    width:206px;
+    height: 195px;
+}
+
+.f1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+.features1 li {
+    margin-bottom: 10px;
+}
+.features1 img {
+    margin-right: 10px;
+}
+
+.features1 a {
+    font-size: 14px;
+    color: #0b5cff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* f2 design */
+.features2 {
+    width:206px;
+    height: 195px;
+}
+
+
+.f2 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+}
+.features2 li {
+    margin-bottom: 10px;
+}
+.features2 img {
+    margin-right: 10px;
+}
+
+.features2 a {
+    font-size: 14px;
+    color: #0b5cff;
+    font-weight: 700;
+    text-decoration: none;
+}
